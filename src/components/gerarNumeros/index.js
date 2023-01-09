@@ -27,6 +27,10 @@ const geradorDeNumeros = ({ numbers, clearView }) => {
 			}
 		}
 
+		array.sort((a, b) => {
+			return a - b;
+		});
+
 		return array;
 	};
 
