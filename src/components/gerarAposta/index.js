@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Text, Button, TextInput, View } from 'react-native';
-import Styles from '../../styles/geradorDeAposta';
+import Styles from '../../styles/gerarAposta';
 
 const geradorDeAposta = ({ gerarNumeros, clearView }) => {
 	const [numbers, setNumbers] = useState(null);
