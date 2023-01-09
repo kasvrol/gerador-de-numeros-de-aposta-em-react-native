@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Text, FlatList, SafeAreaView, View } from 'react-native';
 import Styles from '../../styles/geradorDeNumeros';
-import Numeros from '../numeros';
+import Sortnumbers from '../numeros';
 
 const geradorDeNumeros = ({ numbers, clearView }) => {
 	const [view, setView] = useState(false);
@@ -51,7 +51,7 @@ const geradorDeNumeros = ({ numbers, clearView }) => {
 			) : (
 				<FlatList
 					data={createNumbers()}
-					renderItem={Numeros}
+					renderItem={Sortnumbers}
 					keyExtractor={(item) => item}
 					horizontal={false}
 					numColumns={5}
