@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SafeAreaView } from 'react-native';
-import NumerosAApostar from './components/geradorDeAposta';
+import NumerosAApostar from './components/gerarAposta';
 import NumerosGerados from './components/geradorDeNumeros';
 import Styles from './styles/App';
 
