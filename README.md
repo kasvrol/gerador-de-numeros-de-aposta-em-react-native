@@ -6,10 +6,10 @@
 <p>O aplicativo foi criado com foco no android, pois é o dispositivo que me auxiliou no desenvolvimento.</p>
 
 <h3>Imagens do aplicativo rodando no celular</h3>
-<img src="https://github.com/kasvrol/reactNativePrimeirosPassos/blob/main/src/images/4.png?raw=true" alt="Face do aplicativo antes de gerar aposta" height="280px"/>
-<img src="https://github.com/kasvrol/reactNativePrimeirosPassos/blob/main/src/images/2.png?raw=true" alt="Tentativa de aposta negada pelo aplicativo por conter 25 números" height="280px"/>
-<img src="https://github.com/kasvrol/reactNativePrimeirosPassos/blob/main/src/images/3.png?raw=true" alt="Tentativa de aposta negada pelo aplicativo por conter 5 números" height="280px"/>
-<img src="https://github.com/kasvrol/reactNativePrimeirosPassos/blob/main/src/images/1.png?raw=true" alt="Aposta gerada com 10 números" height="280px"/>
+<div display="flex"><img src="https://github.com/kasvrol/reactNativePrimeirosPassos/blob/main/src/images/4.png?raw=true" alt="Face do aplicativo antes de gerar aposta" height="650px"/>
+<img src="https://github.com/kasvrol/reactNativePrimeirosPassos/blob/main/src/images/2.png?raw=true" alt="Tentativa de aposta negada pelo aplicativo por conter 25 números" height="650px"/>
+<img src="https://github.com/kasvrol/reactNativePrimeirosPassos/blob/main/src/images/3.png?raw=true" alt="Tentativa de aposta negada pelo aplicativo por conter 5 números" height="650px"/>
+<img src="https://github.com/kasvrol/reactNativePrimeirosPassos/blob/main/src/images/1.png?raw=true" alt="Aposta gerada com 10 números" height="650px"/></div>
 
 <h3>Ferramentas:</h3>
 <ul>
