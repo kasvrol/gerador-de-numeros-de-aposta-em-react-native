@@ -26,7 +26,7 @@ const geradorDeAposta = ({ gerarNumeros, clearView }) => {
 		}
 	}, [numbers]);
 
-	const gerarAposta = () => {
+	const betting = () => {
 		if (6 <= numbers && numbers <= 15) {
 			clearView(false);
 			gerarNumeros(numbers);
@@ -48,7 +48,7 @@ const geradorDeAposta = ({ gerarNumeros, clearView }) => {
 				title="Gerar aposta"
 				color="#000000"
 				onPress={() => {
-					gerarAposta();
+					betting();
 				}}
 			/>
 		</View>
