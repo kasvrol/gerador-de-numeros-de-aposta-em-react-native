@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import Styles from '../../styles/numeros';
+import Styles from '../../styles/numerosGerados';
 
 const renderItem = ({ item }) => {
 	return (
