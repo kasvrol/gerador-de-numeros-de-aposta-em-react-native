@@ -2,15 +2,16 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
+	container: {
+		flex: 1,
+		marginBottom: 30,
+		justifyContent: 'flex-end',
+		alignItems: 'stretch',
+	},
 	title: {
 		fontSize: 32,
 		textAlign: 'center',
 		fontWeight: '200',
-	},
-	button: {
-		width: '70%',
-		flexGrow: 1,
-		backgroundColor: '#000',
 	},
 	input: {
 		padding: 10,
