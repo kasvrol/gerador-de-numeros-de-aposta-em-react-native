@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Text, FlatList, SafeAreaView, View } from 'react-native';
-import Styles from '../../styles/geradorDeNumeros';
-import Sortnumbers from '../numeros';
+import Styles from '../../styles/gerarNumeros';
+import Sortnumbers from '../numerosGerados';
 
 const geradorDeNumeros = ({ numbers, clearView }) => {
 	const [view, setView] = useState(false);
